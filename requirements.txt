@@ -1,6 +1,19 @@
-numpy>=1.24
-librosa>=0.10
-matplotlib>=3.7
-scipy>=1.10
-soundfile>=0.12
-tqdm>=4.66
+tensorflow==2.18.0
+pandas
+dvc  # may break on 3.12, see note below
+mlflow==2.2.2  # might not be compatible
+notebook
+numpy
+matplotlib
+seaborn
+python-box==6.0.2
+pyyaml
+tqdm
+ensure==1.0.2
+joblib
+types-PyYAML
+scipy
+Flask
+Flask-Cors
+gdown
+-e .
